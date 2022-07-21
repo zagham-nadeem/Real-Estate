@@ -1,0 +1,39 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="main_content_div">
+    
+    <div class="form_div">
+      <ion-label class="head_lbl">Create Account</ion-label>
+
+      <ion-label class="small_lbl">First Name</ion-label>
+      <ion-input type="text" placeholder="First Name"></ion-input>
+
+      <ion-label class="small_lbl">Last Name</ion-label>
+      <ion-input type="text" placeholder="Last Name"></ion-input>
+
+      <ion-label class="small_lbl">Mobile</ion-label>
+      <ion-input type="text" placeholder="Mobile"></ion-input>
+
+      <ion-label class="small_lbl">Email ID</ion-label>
+      <ion-input type="text" placeholder="Email ID"></ion-input>
+
+      <ion-label class="small_lbl">Passsword</ion-label>
+      <ion-input type="text" placeholder="Password"></ion-input>
+
+      <ion-button (click)="goToHome()" expand="block">
+        Create Account
+      </ion-button>
+
+    </div>
+
+    <div class="bottom_div">
+      <ion-label (click)="goToLogin()">Alreadu have an acconut ? Sign In.</ion-label>
+    </div>
+
+  </div>
+</ion-content>
